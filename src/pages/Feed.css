@@ -1,0 +1,99 @@
+section#post-list {
+    width: 100%;
+    max-width: 61.4rem;
+    margin: 0 auto;
+    padding: 0 3rem;
+    position: relative;
+    height: 100vh;
+}
+
+.message {
+    font-size: 1.6rem;
+    color: #666;
+    text-transform: uppercase;
+    text-align: center;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.message .link {
+    color: #666;
+}
+
+section#post-list article {
+    background-color: #fff;
+    border: 0.1rem solid #ddd;
+    margin-top: 3rem;
+}
+
+section#post-list article:last-child {
+    margin-bottom: 8rem;
+}
+
+section#post-list article header {
+    padding: 2rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section#post-list article header .user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+section#post-list article header .user-info span {
+    font-size: 1.3rem;
+}
+
+section#post-list article header .user-info span.place {
+    font-size: 1.1rem;
+    color: #666;
+    margin-top: 0.3rem;
+}
+
+section#post-list article > img {
+    width: 100%;
+}
+
+section#post-list article footer {
+    padding: 2rem;
+}
+
+section#post-list article footer .actions {
+    margin-bottom: 1rem;
+}
+
+section#post-list article footer .actions button {
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+section#post-list article footer .actions img {
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+section#post-list article footer p {
+    font-size: 1.3rem;
+    margin-top: 0.7rem;
+    line-height: 1.8rem;
+}
+
+section#post-list article footer p .author {
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin: 0;
+}
+
+section#post-list article footer span {
+    color: rgba(var(--fe0, 0, 53, 105), 1);
+    display: block;
+    margin-top: 0.5rem;
+}
